@@ -18,7 +18,7 @@ function Hero(){
         words: ['Web Designer', 'Digital Marketer', 'Web Designer'],
         loop: true, // Adjust according to your needs
         typeSpeed: 120,
-        deleteSpeed: 80
+        deleteSpeed: 88
     });
 
     function toggleTheme() {
