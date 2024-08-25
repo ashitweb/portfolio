@@ -50,7 +50,8 @@ function Hero(){
           <button onClick={toggleTheme} className="togglebtn">
             {isDarkMode ? '🔆' : '🌙'}
           </button></div>
-      <a 
+             <button>
+    <a 
         href="https://cal.com/marketing-boutique/30min" 
         target="_blank" 
         style={{ 
