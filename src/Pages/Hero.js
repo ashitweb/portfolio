@@ -50,7 +50,17 @@ function Hero(){
           <button onClick={toggleTheme} className="togglebtn">
             {isDarkMode ? '🔆' : '🌙'}
           </button></div>
-       <button>Hire Me</button>
+      <a 
+        href="https://cal.com/marketing-boutique/30min" 
+        target="_blank" 
+        style={{ 
+            textDecoration: 'none', 
+            color: 'var(--white-color)' 
+        }}
+    >
+        Book A Call With Me
+    </a>
+</button>
           <p>  A skilled Web Designer 
 proficient in HTML, CSS, JavaScript, Bootstrap, and React,  <img className="reactimg" src={img2} height="30px" alt="react" /> focused on creating responsive and visually appealing user interfaces.
 </p>
